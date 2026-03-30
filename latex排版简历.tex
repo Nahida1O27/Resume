@@ -68,7 +68,7 @@
 \begin{minipage}[t]{0.4\textwidth}
     \vspace*{-1.5em}
     \begin{center}
-        \textbf{求职意向：互联网/制造业}\\
+        \textbf{求职意向：软件测开实习生}\\
         \vspace*{1ex+0.5em}
         男|年龄：21岁\\
         籍贯：台州|出生地：上海
@@ -98,11 +98,11 @@
 \section*{项目经历}
 \vspace{-0.1em}
 \noindent
-\textcolor{sectioncolor}{\textbf{LoRa温湿度毕业设计}} \hfill \textcolor{sectioncolor}{\textbf{2025.10 \textasciitilde{} 2026.05}}
+\textcolor{sectioncolor}{\textbf{LoRa温湿度毕业设计}} \hfill \faGithub~Nahida1O27/UI4LoRaWAN \hfill \textcolor{sectioncolor}{\textbf{2025.10 \textasciitilde{} 2026.05}}
 \par\noindent
-1）采用\textbf{Flutter}框架作为前端，开发跨平台应用实现数据可视化和系统控制
-2）\textbf{模型：}逻辑。
-3）\textbf{体系：}依据。
+1）采用\textbf{Flutter}框架作为前端，开发跨平台应用实现数据可视化和系统控制\\
+2）设计使用\textbf{Rust}开发后端业务逻辑，保障应用性能\\
+4）在硬件端搭建\textbf{LoRa网关}，接收传感器数据上传服务器
 \par\noindent
 \textbf{所用技术：}Flutter，交叉编译，数据库SQL，嵌入式软件等
 \vspace{0.2em}
@@ -110,9 +110,11 @@
 \noindent
 \textcolor{sectioncolor}{\textbf{数据库迁移}} \hfill \textcolor{sectioncolor}{\textbf{2025.12}}
 \par\noindent
-从MySQL迁移到SQLite，涉及数十万条数据。
+从MySQL迁移到SQLite，涉及数十万条数据
 \par\noindent
-1）\textbf{算法} \quad 2）\textbf{设计} \quad 3）\textbf{防范} \quad 4）\textbf{构建}
+1）参考原数据库建表逻辑，根据不同DBMS的相似数据类型完成新数据库建表\\
+2）把数据导出为sql语句，编写\textbf{脚本}修改sql文本，使sql语句满足新DBMS的规范\\
+3）利用\textbf{多线程}，合理把数十万条数据分割成小任务，提升迁移效率
 \par\noindent
 \textbf{所用技术：}SQL，脚本编写，多线程编程等
 \vspace{0.2em}
@@ -120,21 +122,9 @@
 \noindent
 \textcolor{sectioncolor}{\textbf{研究}} \hfill \textcolor{sectioncolor}{\textbf{2023.11 \textasciitilde{} 2024.03}}
 \par\noindent
-1）\textbf{研究：}框架。
-2）\textbf{研究：}建议。
-3）\textbf{构建：}方面。
-\par\noindent
-\textbf{所用技术：}
-\par\noindent
-\textbf{科研产出：}
-\vspace{0.2em}
-
-\noindent
-\textcolor{sectioncolor}{\textbf{研究}} \hfill \textcolor{sectioncolor}{\textbf{2023.07 \textasciitilde{} 2023.10}}
-\par\noindent
-1）\textbf{研究：}分析。
-2）\textbf{点评估：}分析。
-3）\textbf{建议：}提出。
+1）\textbf{研究：}框架
+2）\textbf{研究：}建议
+3）\textbf{构建：}方面
 \par\noindent
 \textbf{所用技术：}
 \par\noindent
@@ -154,6 +144,7 @@
 \section*{个人特质}
 \vspace{-0.1em}
 \begin{itemize}
+    \item 擅用\textbf{AI}工具辅助开发，常用\underline{\textbf{qwen-code}}CLI工具
     \item 重视文档写作，该简历用 \LaTeX 写成
     \item 拥有\underline{\textbf{嵌入式Linux}}开发基础，以及51、STM32等\textbf{嵌入式}的\underline{\textbf{裸机开发}}
     \item 参观IOTE2025上海和MWC2025上海、2025上海国际嵌入式会议，关注行业动态
