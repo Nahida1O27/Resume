@@ -6,4 +6,4 @@
 若要复用请注意字体的商业许可  
 ### Build构建说明
 - online:[overleaf](https://www.overleaf.com/)
-- local：需要本地安装$\LaTeX$编译器，如TeX Live等。详见[说明](https://github.com/James-Yu/LaTeX-Workshop/wiki/Install)
+- local：需要本地安装 $\LaTeX$ 编译器，如TeX Live等。详见[说明](https://github.com/James-Yu/LaTeX-Workshop/wiki/Install)
